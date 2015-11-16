@@ -1,0 +1,12 @@
+void init_matrix (double *a, int n);
+void init_vector (double *b, double *a, int n);
+int read_matrix (double *a, int n, const char *filename);
+int read_vector (double *b, int n, const char *filename);
+double f(int i, int j);
+void print_matrix (double *a, int n);
+void print_vector (double *b, int n);
+int method_of_reflections(double *a, double *b, int n);
+void back_hod (double *a, double *b, double *x, int n);
+double SolutionError(int n, double* a, double* b, double* x);
+double SolutionAccuracy(int n, double* x);
+void printvectorfile (double *b, int n,const char * name);
